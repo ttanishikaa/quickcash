@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Registration"
+        tools:targetApi="31">
+
+        <!-- Google Maps API key (ensure to get your own) -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyANFSYBzM3DEF3TjirgTjAaEg6BOC41-S8" />
+
+
+        <!-- MainActivity Declaration -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HomepageActivity Declaration -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomepageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Employee"
+            android:exported="true" />
+        <activity
+            android:name=".Employer"
+            android:exported="true"/>
+        <activity
+            android:name=".JobPosting"
+            android:exported="true"/>
+        <activity android:name=".JobList"
+            android:exported="true"
+            />
+        <activity android:name=".JobListActivity"
+                  android:exported="true"/>
+
+
+        <activity
+            android:name=".CompletedListingsActivity"
+            android:exported="true"/>
+
+        <activity android:name=".AppliedJobsActivity"
+                  android:exported="true"/>
+        <activity
+            android:name=".CurrentLocation"
+            android:exported="true"/>
+
+        <activity android:name=".JobFilter"
+                  android:exported="true"/>
+        <activity android:name=".FilteredJobListActivity"
+                  android:exported="true"/>
+
+        <activity android:name=".MapViewActivity"
+            android:exported="true"/>
+        <activity android:name=".JobDetailActivity"
+            android:exported="true"/>
+        <activity android:name=".FavoriteJobsActivity"
+            android:exported="true"/>
+
+
+        <activity android:name=".ViewPushNotificationActivity"
+            android:exported="false"/>
+        <service android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".ProfileActivity"
+            android:exported="true"/>
+        <activity android:name=".PreferredJobsActivity"
+                   android:exported="true"/>
+        <activity android:name=".IncomeHistoryActivity"
+            android:exported="true"/>
+        <activity android:name=".IncomeHistoryChartActivity"
+            android:exported="true"/>
+        <activity android:name=".EmployeeListActivity"
+            android:exported="true"/>
+        <activity android:name=".JobHistoryActivity"
+            android:exported="true"/>
+    </application>
+
+</manifest>

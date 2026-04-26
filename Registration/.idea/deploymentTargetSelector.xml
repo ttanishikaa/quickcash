@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetSelector">
+    <selectionStates>
+      <SelectionState runConfigName="app">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-10-30T14:00:17.088824Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/jamshidzar/.android/avd/Medium_Phone.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1f95476e8ec70e57f1ef36cf5824b50b410d21ab
+=======
+>>>>>>> fb3bb94e28862249ac9cfad64294b45870f0b479
+      <SelectionState runConfigName="LoginActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="Employee">
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <SelectionState runConfigName="notificationList">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="Employee"/>
+      <SelectionState runConfigName="AppliedJobsActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="JobListActivity"/>
+      <option name="selectionMode" value="DROPDOWN" />
+      <SelectionState runConfigName="MainActivity"/>
+      <SelectionState runConfigName="checkIfMoveToEmployer()">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="checkIfListingsExist()">
+
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+        <SelectionState runConfigName="LoginActivity">
+            <option name="selectionMode" value="DROPDOWN" />
+        </SelectionState>
+      <SelectionState runConfigName="CompletedListingUIAutomatorTest"/>
+      <SelectionState runConfigName="MainActivity"/>
+        <option name="selectionMode" value="DROPDOWN" />
+      <SelectionState runConfigName="LoginActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="NotificationListActivity">
+>>>>>>> origin/recSystem
+=======
+>>>>>>> 1f95476e8ec70e57f1ef36cf5824b50b410d21ab
+=======
+>>>>>>> fb3bb94e28862249ac9cfad64294b45870f0b479
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+        <SelectionState runConfigName="Employee">
+            <option name="selectionMode" value="DROPDOWN" />
+        </SelectionState>
+    </selectionStates>
+  </component>
+</project>

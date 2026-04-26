@@ -1,0 +1,96 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Bottom Button Layout -->
+    <LinearLayout
+        android:id="@+id/bottomButtonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/incomeHistoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Income History"
+            android:backgroundTint="#6A4EA0"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/jobHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#6A4EA0"
+            android:text="View Job History"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnViewPreferredJobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#6A4EA0"
+            android:text="View Preferred Jobs"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnViewAppliedJobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#6A4EA0"
+            android:text="View Applied Jobs"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/ViewCurrentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#6A4EA0"
+            android:text="View Current Location"
+            android:textColor="#FFFFFF" />
+
+        <!-- View Map -->
+        <Button
+            android:id="@+id/ViewMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#6A4EA0"
+            android:text="View Map"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/jobApplyingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#6A4EA0"
+            android:text="Job Listing"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#6A4EA0"
+            android:text="View Profile"
+            android:textColor="#FFFFFF" />
+
+        <!-- Checkbox for Job Alerts -->
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Enable Job Alerts" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
